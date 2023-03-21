@@ -1,3 +1,34 @@
 this is my first file
 
-Modified the file for the first tim
+Modified the file for the first time
+
+Git lab: It provide runner as well as server
+Git hub: Free server to add code reporsitories Communityt version 
+
+To configure Git for the first time 
+
+git config --global user.name "darshan"
+git config --global user.email "darshan.gail.com"
+
+to initialise the git repository we need tuse following command which will initiate git repository 
+
+git init 
+
+To create file using linux command you can use touch 
+
+touch file.txt
+
+Check the status of the git repo
+git status
+
+check the log
+git log
+
+Add modified file to staging
+git add file.txt  or
+git add . (. signifies wild card character which will add all the modified files)
+
+
+to comming the staging file to repository use
+git commit -m "Commit message"
+
