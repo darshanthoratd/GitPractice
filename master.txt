@@ -32,3 +32,13 @@ git add . (. signifies wild card character which will add all the modified files
 to comming the staging file to repository use
 git commit -m "Commit message"
 
+to check the remote directory 
+git remote -v
+
+Push the changes to remote repository 
+git push -u origin master  (-u is for linking the upstream linking, master is remote branch name )
+
+
+check the diff 
+git diff
+
